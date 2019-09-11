@@ -1,0 +1,16 @@
+{
+  "name": "iphone-demo",
+  "version": "1.0.0",
+  "description": "iPhone demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run serve",
+    "lint": "eslint scripts/**/*",
+    "serve": "http-server . -c-1 -p 4444"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "http-server": "^0.11.1"
+  },
+  "dependencies": {}
+}
